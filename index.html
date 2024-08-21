@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <h1 class="title">Sistema Simples de Vendas</h1>
+
+    <form class="form">
+        <div class="input-area">
+            <label for="valor" class="input-label">Digite o valor da venda</label>
+            <input type="text" id="valor" required>
+        </div>
+
+        <div class="input-area">
+            <label for="valor" class="input-label">Escolha a quantidade de parcelas</label>
+            <select name="parcelas" id="parcelas" required>
+                <option value="">Selecione uma opção</option>
+                <option value="1">1x sem juros</option>
+                <option value="2">2x</option>
+                <option value="3">3x</option>
+                <option value="4">4x</option>
+            </select>
+        </div>
+
+        <div id="parcelas-area" class="parcelas-area">
+
+        </div>
+
+        <button type="submit" class="submit-btn">Vender</button>
+    </form>
+
+    <div id="result" class="result">O valor da parcela com juros: </div>
+</body>
+</html>

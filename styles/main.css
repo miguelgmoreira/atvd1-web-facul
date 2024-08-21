@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1d1d1;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.input-area {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    margin-bottom: 5px;
+}
+
+.submit-btn {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #179c17;
+    color: #eee;
+    cursor: pointer;
+}
+
+input, select {
+    padding: 5px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.parcelas-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parcela-item {
+    text-align: center;
+}
